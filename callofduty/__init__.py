@@ -1,4 +1,4 @@
 from .callofduty import CallOfDuty
 
-def setup(bot):
-    bot.add_cog(CallOfDuty(bot))
+await def setup(bot):
+  await  bot.add_cog(CallOfDuty(bot))
